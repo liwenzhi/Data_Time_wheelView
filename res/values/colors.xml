@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="orange_main">#ec6f1a</color>
+    <color name="orange_light">#ffd39b</color>
+    <color name="orange_deep">#ff6f3a</color>
+    <color name="orange_most">#C76114</color>
+    <color name="orange_litter">#80aa6136</color>
+
+
+    <color name="tv_gray_normal">#c0c0c0</color>
+    <color name="tv_gray_deep">#818181</color>
+    <color name="tv_gray_lit">#50b1b1b1</color>
+    <color name="tv_gray">@android:color/darker_gray</color>
+    <color name="gray">#cccccc</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--不可点击的时候-->
+    <item android:state_enabled="false">
+        <shape>
+            <!-- 填充的颜色 -->
+            <solid android:color="@color/tv_gray_deep"/>
+
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的所有半径 -->
+            <corners android:radius="3dp"/>
+
+            <!-- 边框的宽度及颜色 -->
+            <stroke
+                    android:width="0.1dp"
+                    android:color="@color/tv_gray_normal"/>
+        </shape>
+
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 填充的颜色 -->
+            <solid android:color="@color/orange_main"/>
+
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的所有半径 -->
+            <corners android:radius="3dp"/>
+
+            <!-- 边框的宽度及颜色 -->
+            <stroke
+                    android:width="0.1dp"
+                    android:color="@color/tv_gray_normal"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/orange_litter"/>
+            <corners android:radius="3dp"/>
+            <stroke
+                    android:width="0.1dp"
+                    android:color="@color/gray"/>
+        </shape>
+    </item>
+
+
+</selector>
